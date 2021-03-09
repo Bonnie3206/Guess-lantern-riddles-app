@@ -5,6 +5,7 @@
 //  Created by CK on 2021/3/7.
 //
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
     @State private var AnswearShow = false
@@ -22,10 +23,20 @@ struct ContentView: View {
                     Text("第" + String(number+1) + "題")
                         .font(.title).foregroundColor(.white).multilineTextAlignment(.center).padding(16)
                         Spacer()
-                }.background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.orange/*@END_MENU_TOKEN@*/)
+                }.background(Color.yellow)
                 
                 Text(Question[Sequence[number]]).font(.title).fontWeight(.bold).padding()
+                Button(action:{
+                    let questionUtterance = AVSpeechUtterance(string:Question[Sequence[number]])
+                    questionUtterance.voice = AVSpeechSynthesisVoice(language: "zh-TW")
+                    let questionSynthesizer = AVSpeechSynthesizer()
+                    questionSynthesizer.speak(questionUtterance)
+                    
+                },label:{
+                    Text("幫我念題目")
+                })
                 
+
                 HStack{
                     
                     
@@ -34,6 +45,15 @@ struct ContentView: View {
                             .font(.largeTitle)
                             .multilineTextAlignment(.trailing)
                             .padding()
+                        Button(action:{
+                            let answerUtterance = AVSpeechUtterance(string:Answer[Sequence[number]])
+                            answerUtterance.voice = AVSpeechSynthesisVoice(language: "zh-TW")
+                            let answerSynthesizer = AVSpeechSynthesizer()
+                            answerSynthesizer.speak(answerUtterance)
+                            
+                        },label:{
+                            Text("想聽答案")
+                        })
                            
                     }else{
                         Text("答案是...?")
