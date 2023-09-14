@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		439762F025F4DE09009A4BB8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439762EF25F4DE09009A4BB8 /* main.swift */; };
+		439762F025F4DE09009A4BB8 /* Guess-lantern-riddles-App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439762EF25F4DE09009A4BB8 /* Guess-lantern-riddles-App.swift */; };
 		439762F225F4DE09009A4BB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439762F125F4DE09009A4BB8 /* ContentView.swift */; };
 		439762F425F4DE0C009A4BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439762F325F4DE0C009A4BB8 /* Assets.xcassets */; };
 		439762F725F4DE0C009A4BB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439762F625F4DE0C009A4BB8 /* Preview Assets.xcassets */; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		439762EC25F4DE09009A4BB8 /* Hw01_00753143_test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hw01_00753143_test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		439762EF25F4DE09009A4BB8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		439762EC25F4DE09009A4BB8 /* Guess-lantern-riddles-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess-lantern-riddles-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439762EF25F4DE09009A4BB8 /* Guess-lantern-riddles-App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Guess-lantern-riddles-App.swift"; sourceTree = "<group>"; };
 		439762F125F4DE09009A4BB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		439762F325F4DE0C009A4BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439762F625F4DE0C009A4BB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		439762E325F4DE09009A4BB8 = {
 			isa = PBXGroup;
 			children = (
-				439762EE25F4DE09009A4BB8 /* Guess-lantern-riddles */,
+				439762EE25F4DE09009A4BB8 /* Guess-lantern-riddles-App */,
 				439762ED25F4DE09009A4BB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,22 +46,22 @@
 		439762ED25F4DE09009A4BB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				439762EC25F4DE09009A4BB8 /* Hw01_00753143_test2.app */,
+				439762EC25F4DE09009A4BB8 /* Guess-lantern-riddles-App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		439762EE25F4DE09009A4BB8 /* Guess-lantern-riddles */ = {
+		439762EE25F4DE09009A4BB8 /* Guess-lantern-riddles-App */ = {
 			isa = PBXGroup;
 			children = (
-				439762EF25F4DE09009A4BB8 /* main.swift */,
+				439762EF25F4DE09009A4BB8 /* Guess-lantern-riddles-App.swift */,
 				439762F125F4DE09009A4BB8 /* ContentView.swift */,
 				439762FF25F4DE44009A4BB8 /* QA.swift */,
 				439762F325F4DE0C009A4BB8 /* Assets.xcassets */,
 				439762F825F4DE0C009A4BB8 /* Info.plist */,
 				439762F525F4DE0C009A4BB8 /* Preview Content */,
 			);
-			path = "Guess-lantern-riddles";
+			path = "Guess-lantern-riddles-App";
 			sourceTree = "<group>";
 		};
 		439762F525F4DE0C009A4BB8 /* Preview Content */ = {
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		439762EB25F4DE09009A4BB8 /* Hw01_00753143_test2 */ = {
+		439762EB25F4DE09009A4BB8 /* Guess-lantern-riddles-App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 439762FB25F4DE0C009A4BB8 /* Build configuration list for PBXNativeTarget "Hw01_00753143_test2" */;
+			buildConfigurationList = 439762FB25F4DE0C009A4BB8 /* Build configuration list for PBXNativeTarget "Guess-lantern-riddles-App" */;
 			buildPhases = (
 				439762E825F4DE09009A4BB8 /* Sources */,
 				439762E925F4DE09009A4BB8 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = Hw01_00753143_test2;
+			name = "Guess-lantern-riddles-App";
 			productName = Hw01_00753143_test2;
-			productReference = 439762EC25F4DE09009A4BB8 /* Hw01_00753143_test2.app */;
+			productReference = 439762EC25F4DE09009A4BB8 /* Guess-lantern-riddles-App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Guess-lantern-riddles(iOS-App)" */;
+			buildConfigurationList = 439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Guess-lantern-riddles-App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				439762EB25F4DE09009A4BB8 /* Hw01_00753143_test2 */,
+				439762EB25F4DE09009A4BB8 /* Guess-lantern-riddles-App */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				439762F225F4DE09009A4BB8 /* ContentView.swift in Sources */,
-				439762F025F4DE09009A4BB8 /* main.swift in Sources */,
+				439762F025F4DE09009A4BB8 /* Guess-lantern-riddles-App.swift in Sources */,
 				4397630025F4DE44009A4BB8 /* QA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,16 +272,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Hw01_00753143_test2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Guess-lantern-riddles-App/Preview Content\"";
 				DEVELOPMENT_TEAM = J886232PB6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Hw01_00753143_test2/Info.plist;
+				INFOPLIST_FILE = "Guess-lantern-riddles-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Hw01-00753143-test2";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Guess-lantern-riddles-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,16 +294,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Hw01_00753143_test2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Guess-lantern-riddles-App/Preview Content\"";
 				DEVELOPMENT_TEAM = J886232PB6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Hw01_00753143_test2/Info.plist;
+				INFOPLIST_FILE = "Guess-lantern-riddles-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Hw01-00753143-test2";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Guess-lantern-riddles-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Guess-lantern-riddles(iOS-App)" */ = {
+		439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Guess-lantern-riddles-App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				439762F925F4DE0C009A4BB8 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		439762FB25F4DE0C009A4BB8 /* Build configuration list for PBXNativeTarget "Hw01_00753143_test2" */ = {
+		439762FB25F4DE0C009A4BB8 /* Build configuration list for PBXNativeTarget "Guess-lantern-riddles-App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				439762FC25F4DE0C009A4BB8 /* Debug */,
