@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		439762F025F4DE09009A4BB8 /* Hw01_00753143_test2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439762EF25F4DE09009A4BB8 /* Hw01_00753143_test2App.swift */; };
+		439762F025F4DE09009A4BB8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439762EF25F4DE09009A4BB8 /* main.swift */; };
 		439762F225F4DE09009A4BB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439762F125F4DE09009A4BB8 /* ContentView.swift */; };
 		439762F425F4DE0C009A4BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439762F325F4DE0C009A4BB8 /* Assets.xcassets */; };
 		439762F725F4DE0C009A4BB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439762F625F4DE0C009A4BB8 /* Preview Assets.xcassets */; };
@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		439762EC25F4DE09009A4BB8 /* Hw01_00753143_test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hw01_00753143_test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		439762EF25F4DE09009A4BB8 /* Hw01_00753143_test2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hw01_00753143_test2App.swift; sourceTree = "<group>"; };
+		439762EF25F4DE09009A4BB8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		439762F125F4DE09009A4BB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		439762F325F4DE0C009A4BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439762F625F4DE0C009A4BB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		439762E325F4DE09009A4BB8 = {
 			isa = PBXGroup;
 			children = (
-				439762EE25F4DE09009A4BB8 /* Hw01_00753143_test2 */,
+				439762EE25F4DE09009A4BB8 /* Guess-lantern-riddles */,
 				439762ED25F4DE09009A4BB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +51,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		439762EE25F4DE09009A4BB8 /* Hw01_00753143_test2 */ = {
+		439762EE25F4DE09009A4BB8 /* Guess-lantern-riddles */ = {
 			isa = PBXGroup;
 			children = (
-				439762EF25F4DE09009A4BB8 /* Hw01_00753143_test2App.swift */,
+				439762EF25F4DE09009A4BB8 /* main.swift */,
 				439762F125F4DE09009A4BB8 /* ContentView.swift */,
 				439762FF25F4DE44009A4BB8 /* QA.swift */,
 				439762F325F4DE0C009A4BB8 /* Assets.xcassets */,
 				439762F825F4DE0C009A4BB8 /* Info.plist */,
 				439762F525F4DE0C009A4BB8 /* Preview Content */,
 			);
-			path = Hw01_00753143_test2;
+			path = "Guess-lantern-riddles";
 			sourceTree = "<group>";
 		};
 		439762F525F4DE0C009A4BB8 /* Preview Content */ = {
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Hw01_00753143_test2" */;
+			buildConfigurationList = 439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Guess-lantern-riddles(iOS-App)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				439762F225F4DE09009A4BB8 /* ContentView.swift in Sources */,
-				439762F025F4DE09009A4BB8 /* Hw01_00753143_test2App.swift in Sources */,
+				439762F025F4DE09009A4BB8 /* main.swift in Sources */,
 				4397630025F4DE44009A4BB8 /* QA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Hw01_00753143_test2" */ = {
+		439762E725F4DE09009A4BB8 /* Build configuration list for PBXProject "Guess-lantern-riddles(iOS-App)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				439762F925F4DE0C009A4BB8 /* Debug */,
